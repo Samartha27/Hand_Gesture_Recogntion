@@ -28,8 +28,7 @@ Segmenting hand from video sequence
     We find the contours in the thresholded image and obtain the contour with maximum area as the hand. 
 
 Prediction using model
-
-    We apply the model to the segmented images which predicts a probability vector for all the 18 different classes. We then use get the index of the maximum for the output and map them to the labels we need.
+We apply the model to the segmented images which predicts a probability vector for all the 18 different classes. We then use get the index of the maximum for the output and map them to the labels we need.
 
 
 ## Dataset
@@ -57,7 +56,7 @@ A baseline custom CNN architecture
 <img src="images/vgg.png" width="200" >
 
 - Squeezenet
-<img src="images/squeezenet.png" width="200" >
+<img src="images/Squeezenet.png" width="200" >
 
 - Alexnet
 <img src="images/alexnet.png" width="200" >
