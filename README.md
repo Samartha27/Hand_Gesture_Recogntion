@@ -31,9 +31,12 @@ A baseline custom CNN architecture
 <img src="images/labels.png" width="100" >
 - VGG
 <img src="images/labels.png" width="100" >
+
 - Squeezenet
 <img src="images/labels.png" width="100" >
+
 - Alexnet
 <img src="images/labels.png" width="100" >
+
 - Densenet
 <img src="images/labels.png" width="100" >
