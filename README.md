@@ -24,10 +24,11 @@ We have trained the above-mentioned models on the vast dataset and obtained good
 A baseline custom CNN architecture
 
 
-- Inception       - Resnet
+- Inception     
 
 <img src="images/labels.png" width="200" >   <img src="images/labels.png" width="200" >      <img src="images/labels.png" width="200" > <img src="images/labels.png" width="200" >
 
+- Resnet
 <img src="images/labels.png" width="100" >
 
 -  VGG
