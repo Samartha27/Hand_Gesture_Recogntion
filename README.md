@@ -22,5 +22,18 @@ https://www.kaggle.com/aryarishabh/hand-gesture-recognition-dataset
 
 We have trained the above-mentioned models on the vast dataset and obtained good accuracies for each of them as depicted by the plots.
 A baseline custom CNN architecture
-###Inception
-performance
+
+
+-Inception
+
+<img src="images/labels.png" width="100" >
+-Resnet
+<img src="images/labels.png" width="100" >
+-VGG
+<img src="images/labels.png" width="100" >
+-Squeezenet
+<img src="images/labels.png" width="100" >
+-Alexnet
+<img src="images/labels.png" width="100" >
+-Densenet
+<img src="images/labels.png" width="100" >
