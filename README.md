@@ -24,16 +24,16 @@ We have trained the above-mentioned models on the vast dataset and obtained good
 A baseline custom CNN architecture
 
 
--Inception
+- Inception
 
+<img src="images/labels.png" width="100" >   <img src="images/labels.png" width="100" >
+- Resnet
 <img src="images/labels.png" width="100" >
--Resnet
+- VGG
 <img src="images/labels.png" width="100" >
--VGG
+- Squeezenet
 <img src="images/labels.png" width="100" >
--Squeezenet
+- Alexnet
 <img src="images/labels.png" width="100" >
--Alexnet
-<img src="images/labels.png" width="100" >
--Densenet
+- Densenet
 <img src="images/labels.png" width="100" >
