@@ -29,7 +29,8 @@ A baseline custom CNN architecture
 <img src="images/labels.png" width="200" >   <img src="images/labels.png" width="200" >      <img src="images/labels.png" width="200" > <img src="images/labels.png" width="200" >
 - Resnet
 <img src="images/labels.png" width="100" >
-- VGG
+
+-  VGG
 <img src="images/labels.png" width="100" >
 
 - Squeezenet
