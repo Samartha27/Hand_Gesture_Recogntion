@@ -9,29 +9,27 @@ We have trained the dataset on various standard architectures like VGG, Inceptio
 
 ## Process flow
 
- - **Model preparation**
+ Model preparation
  
 Along with standard architectures as mentioned above we have also deployed a custom CNN model which is optimized for quick prediction during real time implementation. 
 
- - **Segmenting hand from video sequence**
+Segmenting hand from video sequence
 
-
-**Background subtraction**
+ - Background subtraction
 
     We take an input sequence of 30 frames at the start to apply running averages and figure the background in the video sequence. After this we introduce the hand in the next frame. This frame contains the foreground and we find the absolute difference between the current frame and the background generated using running averages. This gives us the background subtracted output.
 
-**Motion detection and thresholding**
+ - Motion detection and thresholding
 
     We use a threshold parameter on the difference image to filter out only the hand and set all other objects into the background
 
-**Contour extraction**
+ - Contour extraction
 
     We find the contours in the thresholded image and obtain the contour with maximum area as the hand. 
 
- - **Prediction using model**
+Prediction using model
 
     We apply the model to the segmented images which predicts a probability vector for all the 18 different classes. We then use get the index of the maximum for the output and map them to the labels we need.
-
 
 
 ## Dataset
@@ -50,19 +48,19 @@ A baseline custom CNN architecture
 
 - Inception     
 
-<img src="images/labels.png" width="200" >   <img src="images/labels.png" width="200" >      <img src="images/labels.png" width="200" > <img src="images/labels.png" width="200" >
+<img src="images/inception.png" width="200" >   <img src="images/squeezenet.png" width="200" >      <img src="images/densenet.png" width="200" > <img src="images/alexnet.png" width="200" >
 
 - Resnet
-<img src="images/labels.png" width="100" >
+<img src="images/resnet.png" width="200" >
 
 -  VGG
-<img src="images/labels.png" width="100" >
+<img src="images/vgg.png" width="200" >
 
 - Squeezenet
-<img src="images/labels.png" width="100" >
+<img src="images/squeezenet.png" width="200" >
 
 - Alexnet
-<img src="images/labels.png" width="100" >
+<img src="images/alexnet.png" width="200" >
 
 - Densenet
-<img src="images/labels.png" width="100" >
+<img src="images/densenet.png" width="200" >
