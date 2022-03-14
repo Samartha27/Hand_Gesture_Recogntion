@@ -17,3 +17,10 @@ The link for the dataset is as follows:
 https://www.kaggle.com/aryarishabh/hand-gesture-recognition-dataset
 
 <img src="images/labels.png" width="720" >
+
+## Performance analysis
+
+We have trained the above-mentioned models on the vast dataset and obtained good accuracies for each of them as depicted by the plots.
+A baseline custom CNN architecture
+###Inception
+performance
