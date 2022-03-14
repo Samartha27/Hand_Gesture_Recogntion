@@ -26,7 +26,7 @@ A baseline custom CNN architecture
 
 - Inception
 
-<img src="images/labels.png" width="100" >   <img src="images/labels.png" width="100" >
+<img src="images/labels.png" width="200" >   <img src="images/labels.png" width="200" >      <img src="images/labels.png" width="200" > <img src="images/labels.png" width="200" >
 - Resnet
 <img src="images/labels.png" width="100" >
 - VGG
