@@ -47,7 +47,7 @@ A baseline custom CNN architecture
 
 - Inception     
 
-<img src="images/inception.png" width="200" >   <img src="images/squeezenet.png" width="200" >      <img src="images/densenet.png" width="200" > <img src="images/alexnet.png" width="200" >
+<img src="images/inception.png" width="200" >   <img src="images/Squeezenet.png" width="200" >      <img src="images/densenet.png" width="200" > <img src="images/alexnet.png" width="200" >
 
 - Resnet
 <img src="images/resnet.png" width="200" >
