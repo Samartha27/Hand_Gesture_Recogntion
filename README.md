@@ -39,9 +39,25 @@ https://www.kaggle.com/aryarishabh/hand-gesture-recognition-dataset
 
 <img src="images/labels.png" width="720" >
 
+
+## What are some of the problems we faced?
+
+The problem we faced was that the datasets we we used were incredibly undersized and in order to use them with sophisticated large models like Inception v3, Densenet,etc the images had to be resized nearly 5 times which although proved good to go while training the implementation on the webcam was challenging. The accuracy obtained could have been better. 
+
+Due to the limited availability of GPU computation resources we had to run the dataset containing 21000 thousand images(although the image was undersized) and  on Google colab and kaggle notebooks and fine tuning the pre-trained models was very challenging.We spent a significant amount of time with the local CUDA crashing while training with the datasets. 
+
+It was really disappointing to realize that the amount of time spent on training the networks did not yield the desired results at runtime.
+
+
 ## Performance analysis
 
 We have trained the above-mentioned models on the vast dataset and obtained good accuracies for each of them as depicted by the plots.
+
+Overall we were able to obtain excellent accuracies for each of the models on the vast datasets we deployed as depicted by the plots. For each model we have trained on batch sizes of  64,128 and 256. 
+We suspect that the reason for challenging results at runtime is attributed to the transformations necessary to feed the network into the large models. Although a huge dataset, the lack of diversity between the samples caused the poor generalization of the network.
+
+The model performance are as given below:
+
 A baseline custom CNN architecture
 
 
