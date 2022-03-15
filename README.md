@@ -1,4 +1,4 @@
-# OpenCV_Calculator
+# Hand Gesture Recognition
 
 ## Description
 Hand gesture recognition is an important way of communicating among humans and also between human and a machine. This has a wide range of applications, from interacting with robots, to interacting with laptops, mobile phones and helping specially abled people to express themselves. 
