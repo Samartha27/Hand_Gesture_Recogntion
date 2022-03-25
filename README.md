@@ -1,9 +1,7 @@
 # Realtime Hand Gesture Recognition
 
-## Team Members
-Samartha Ramkumar and Jnana Rama Krishna D
 
-[Video presentation](https://drive.google.com/file/d/1hJuggP78K1OOjdf7JcgZBRIgGPBR321C/view?ts=62302ea3)
+
 
 ## Problem statement
 Hand gesture recognition is an important way of communicating among humans, also between human and a machine. This has a wide range of applications, from interacting with robots, to interacting with laptops, mobile phones and helping specially abled people to express themselves. 
@@ -132,8 +130,6 @@ Even though the model gave good accuracies on the vaildation set, it struggles t
 The previous work employed a simple baseline CNN model for training and obtained the accuracies of around 98%. We have changed the backbone of the network and made use of transfer learning to fine tune the model based on our needs to obtain better accuracies in the range of 99%. We have also made a lightweight CNN model while playing around with models. 
 By employing sophisticated networks we were able to  obtain better accuracies. However deployment at real time proved challenging due to technical limitations.
 
-References : 
-1) [Presentation for the project](https://docs.google.com/presentation/d/13LD8DBz0BHih0IjaJgoh5blaWbaGZDlG/edit#slide=id.p1)
-2) [Github Reference used](https://github.com/rishabh-arya/Gesture-controlled-opencv-calculator)
-3) [Transfer learning fine tuning in pytorch](https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html)
-4) [Transfer learning](https://cs231n.github.io/transfer-learning/)
+##References : 
+
+1) [Transfer learning](https://cs231n.github.io/transfer-learning/)
