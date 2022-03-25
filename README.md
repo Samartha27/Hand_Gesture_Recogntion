@@ -132,4 +132,4 @@ By employing sophisticated networks we were able to  obtain better accuracies. H
 
 ## References : 
 
-1) [Transfer learning](https://cs231n.github.io/transfer-learning/)
+[Transfer learning](https://cs231n.github.io/transfer-learning/)
