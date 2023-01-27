@@ -31,29 +31,6 @@ We've used the AlexNet, MobileNetV2, ResNet18 as the backbones and have trained 
 
 As the models take huge amount of time to train, we've mainly used only "batch size" as the varying parameter in all the experiments annd analysed the training times for each experiment. Apart from that we've analysed the training times of all the networks with various batch sizes. The batch sizes used are 64, 128 and 256, for both training, validation loops.
 
-<p align="center">
-    i) Validation accuracy for AlexNet
-</p>
-
-<p align="center">
-    <img src="./images/alexnet.png" >       
-</p>
-
-<p align="center">
-    ii) Validation accuracy for MobileNetV2
-</p>
-
-<p align="center">
-    <img src="./images/mobilenetv2.png"> 
- </p>  
- 
-<p align="center">
-   iii) Validation accuracy for ResNet18
-</p>
-
-<p align="center">   
-    <img src="./assets/resnet.png">
-</p>
 
 All the models converged with less number of epochs, as the dataset has little to less variation in the training images. But, among the models used, MobieNetV2 converged relatively with less number of epochs followed by ResNet and AlexNet. Among all the models AlexNet took more number of epochs to converge.
 
@@ -110,25 +87,19 @@ Once we get the segmented hand image, we pass the image to our MobileNetV2 model
 The problem we faced was that the dataset used was undersized and it has less variation among them. To use the dataset with sophisticated large models like MobileNet v2, AlexNet,etc the images had to be resized nearly 5 times to their original size which although proved good to go while training, but when it came to the implementation on the webcam the model was not able to generalize well. The accuracy obtained could have been better in the real time scenarios.
   
 <p align="center"> 
-  <img src="./images/output1.jpeg" width="400" >     <img src="./images/output2.jpeg" width="400" >
+  <img src="./images/output1.jpeg" width="400" > <img src="./images/output3.jpeg" width="400" > 
 </p>
     
-<p align="center">
-    <img src="./images/output3.jpeg" width="400" >       <img src="./images/output4.jpeg" width="400" >
-</p>
- 
 
-Due to the limited availability of GPU computation resources we had to run the dataset containing 21000 thousand images(although the image was undersized) and  on Google colab and kaggle notebooks and fine tuning the pre-trained models was very challenging. We spent a significant amount of time with the local CUDA crashing while training with the datasets. 
 
 
 ## Next steps and future work
 
-Even though the model gave good accuracies on the vaildation set, it struggles to perform well in the real world. We would like to explore more sophisticated data augmentation methods to create a dataset with sufficient diversity for effective generalization of the images on previously unseen data. Also, we would need better ways to segment our hand in the foreground. Along with that we can work in the direction of involving optical flow in the pipeline so that the model works on not only static images, but also actions generated from gestures.
+We would like to explore more sophisticated data augmentation methods to create a dataset with sufficient diversity for effective generalization of the images on previously unseen data.  Along with that we can work in the direction of involving optical flow in the pipeline so that the model works on not only static images, but also actions generated from gestures.
 
 
 ## How is our approach unique ? 
-The previous work employed a simple baseline CNN model for training and obtained the accuracies of around 98%. We have changed the backbone of the network and made use of transfer learning to fine tune the model based on our needs to obtain better accuracies in the range of 99%. We have also made a lightweight CNN model while playing around with models. 
-By employing sophisticated networks we were able to  obtain better accuracies. However deployment at real time proved challenging due to technical limitations.
+The previous work employed a simple baseline CNN model for training and obtained the accuracies of around 98%. We have changed the backbone of the network and made use of transfer learning to fine tune the model based on our needs to obtain better accuracies in the range of 99%. We have also made a lightweight CNN model while playing around with models. By employing sophisticated networks we were able to  obtain better accuracies. However deployment at real time proved challenging due to technical limitations.
 
 ## References : 
 
